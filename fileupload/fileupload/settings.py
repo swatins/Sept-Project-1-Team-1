@@ -37,18 +37,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'uploadfile'
-    # 'storages'
+    'uploadfile',
+    'storages',
 ]
-# AWS integration of S3
-# AWS_ACCESS_KEY_ID = 'your_aws_access_key_id'
-# AWS_SECRET_ACCESS_KEY = 'your_aws_secret_access_key'
-# AWS_STORAGE_BUCKET_NAME = 'your_s3_bucket_name'
-#
-# AWS_S3_FILE_OVERWRITE = False
-# AWS_S3_REGION_NAME = 'your_s3_region'
-#
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#AWS integration of S3
+AWS_ACCESS_KEY_ID = 'AKIAYS2NTVXPI6UWALRO'
+AWS_SECRET_ACCESS_KEY = 'kTtBz3QM2fZRw7k0TjcB4lMbQM0+hSBxuLz4AXYu'
+AWS_STORAGE_BUCKET_NAME = 'mybuckets311'
+
+AWS_S3_FILE_OVERWRITE = False
+AWS_S3_REGION_NAME = 'ap-south-1'
+AWS_S3_SIGNATURE_VERSION = 's3v4'
+AWS_DEFAULT_ACL = None
+AWS_S3_VERIFY = True
+
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
