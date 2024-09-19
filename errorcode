@@ -1,0 +1,194 @@
+24/09/19 06:00:54 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.8.252:36507 with 5.8 GiB RAM, BlockManagerId(8, 172.31.8.252, 36507, None)
+24/09/19 06:00:54 INFO ExecutorEventListener: Got executor added event for 4 @ 1726725654664
+24/09/19 06:00:54 INFO ExecutorTaskManagement: connected executor 4
+24/09/19 06:00:54 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.3.158:43342) with ID 4,  ResourceProfileId 0
+24/09/19 06:00:54 INFO ExecutorEventListener: Got executor added event for 8 @ 1726725654629
+24/09/19 06:00:54 INFO ExecutorTaskManagement: connected executor 8
+24/09/19 06:00:54 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.8.252:42516) with ID 8,  ResourceProfileId 0
+24/09/19 06:00:54 INFO ExecutorTaskManagement: executor 3 g-ab3d6aa3afc60cd7149e0680c7ca96fc7bed4d93 status is RUNNING
+24/09/19 06:00:54 INFO TaskGroupInterface: getting status for executor task g-ab3d6aa3afc60cd7149e0680c7ca96fc7bed4d93
+24/09/19 06:00:54 INFO ExecutorTaskManagement: executor 4 g-fd2f55f02e25334740723b0c6dc37d675fb217fc status is RUNNING
+24/09/19 06:00:54 INFO TaskGroupInterface: getting status for executor task g-fd2f55f02e25334740723b0c6dc37d675fb217fc
+24/09/19 06:00:54 INFO ExecutorTaskManagement: executor 1 g-0fa910d0f872393c0af0176cb627bb7320374470 status is RUNNING
+24/09/19 06:00:54 INFO ExecutorTaskManagement: executor 8 g-d7e6881905a7fd2566d8c1743cf26e3dfcd7b12a status is RUNNING
+24/09/19 06:00:54 INFO TaskGroupInterface: getting status for executor task g-0fa910d0f872393c0af0176cb627bb7320374470
+24/09/19 06:00:54 INFO TaskGroupInterface: getting status for executor task g-d7e6881905a7fd2566d8c1743cf26e3dfcd7b12a
+24/09/19 06:00:54 INFO ExecutorTaskManagement: executor 2 g-aac9a580d25afc70831e8758f0f7c21893d2f173 status is RUNNING
+24/09/19 06:00:54 INFO TaskGroupInterface: getting status for executor task g-aac9a580d25afc70831e8758f0f7c21893d2f173
+24/09/19 06:00:54 INFO ExecutorTaskManagement: polling 5 pending JES executor tasks for status
+24/09/19 06:00:54 INFO ExecutorTaskManagement: polling for executor task status
+24/09/19 06:00:54 INFO JESSchedulerBackend: polling for JES task status
+24/09/19 06:00:54 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.3.182:33445 with 5.8 GiB RAM, BlockManagerId(9, 172.31.3.182, 33445, None)
+24/09/19 06:00:53 INFO ExecutorTaskManagement: connected executor 9
+24/09/19 06:00:53 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.3.182:60926) with ID 9,  ResourceProfileId 0
+24/09/19 06:00:53 INFO ExecutorEventListener: Got executor added event for 9 @ 1726725653916
+24/09/19 06:00:53 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.10.98:35433 with 5.8 GiB RAM, BlockManagerId(6, 172.31.10.98, 35433, None)
+24/09/19 06:00:53 INFO ExecutorTaskManagement: connected executor 6
+24/09/19 06:00:53 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.10.98:56532) with ID 6,  ResourceProfileId 0
+24/09/19 06:00:53 INFO ExecutorEventListener: Got executor added event for 6 @ 1726725653550
+24/09/19 06:00:53 INFO SharedState: Warehouse path is 'file:/tmp/spark-warehouse'.
+24/09/19 06:00:53 INFO SharedState: spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir.
+24/09/19 06:00:53 INFO GlueContext: The DataSink in action for the given format/connectionType (redshift) is com.amazonaws.services.glue.RedshiftDataSink
+24/09/19 06:00:53 INFO Job$: runId Method is Invoked 
+24/09/19 06:00:53 INFO Job$: Job run ID under runId method is jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065 
+24/09/19 06:00:53 INFO RedshiftDataSink: glue.etl.telemetry.runtimeImproveFeature.baikal.datasink, jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065
+24/09/19 06:00:53 INFO JDBCConnectionRetryWrapper$: Successfully create connection to JDBC Sink
+24/09/19 06:00:53 INFO JDBCWrapper$: INFO: using ssl properties: Map(sslrootcert -> /opt/amazon/certs/redshift-ssl-ca-cert.pem, ssl -> true, sslmode -> verify-full)
+24/09/19 06:00:52 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 172.31.0.247:43859 in memory (size: 7.6 KiB, free: 5.8 GiB)
+24/09/19 06:00:52 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 172.31.5.180:42403 in memory (size: 7.6 KiB, free: 5.8 GiB)
+24/09/19 06:00:52 INFO RedshiftUtils$: Redshift JDBC driver classpath is set: com.amazon.redshift.jdbc42.Driver
+24/09/19 06:00:52 INFO RedshiftUtils$: Setting Redshift JDBC driver classpath...
+24/09/19 06:00:52 INFO RedshiftUtils$: Redshift JDBC driver classpath is empty, initializing..
+24/09/19 06:00:52 INFO DataCatalogWrapper: Encrypted Catalog password  empty, using value of unencrypted Catalog password
+24/09/19 06:00:52 INFO GlueContext: Glue secret manager integration: secretId is not provided.
+24/09/19 06:00:52 INFO DAGScheduler: Job 0 finished: fromRDD at DynamicFrame.scala:305, took 53.103636 s
+24/09/19 06:00:52 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+24/09/19 06:00:52 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+24/09/19 06:00:52 INFO DAGScheduler: ResultStage 0 (fromRDD at DynamicFrame.scala:305) finished in 53.033 s
+24/09/19 06:00:52 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+24/09/19 06:00:52 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 3333 ms on 172.31.0.247 (executor 7) (1/1)
+24/09/19 06:00:51 INFO MultipartUploadOutputStream: close closed:false s3://aws-glue-assets-590183902686-ap-south-1/sparkHistoryLogs/spark-application-1726725593632.inprogress
+24/09/19 06:00:51 INFO MultipartUploadOutputStream: close closed:false s3://aws-glue-assets-590183902686-ap-south-1/sparkHistoryLogs/jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065.inprogress
+24/09/19 06:00:51 INFO LogPusher: uploading /tmp/spark-event-logs/ to s3://aws-glue-assets-590183902686-ap-south-1/sparkHistoryLogs/
+24/09/19 06:00:50 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.1.66:42867 with 5.8 GiB RAM, BlockManagerId(5, 172.31.1.66, 42867, None)
+24/09/19 06:00:50 INFO ExecutorTaskManagement: connected executor 5
+24/09/19 06:00:50 INFO ExecutorEventListener: Got executor added event for 5 @ 1726725650673
+24/09/19 06:00:50 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.1.66:39158) with ID 5,  ResourceProfileId 0
+24/09/19 06:00:50 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.31.0.247:43859 (size: 34.9 KiB, free: 5.8 GiB)
+24/09/19 06:00:49 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.31.0.247:43859 (size: 7.6 KiB, free: 5.8 GiB)
+24/09/19 06:00:48 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (172.31.0.247, executor 7, partition 0, ANY, 4664 bytes) taskResourceAssignments Map()
+24/09/19 06:00:48 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.0.247:43859 with 5.8 GiB RAM, BlockManagerId(7, 172.31.0.247, 43859, None)
+24/09/19 06:00:48 INFO ExecutorTaskManagement: connected executor 7
+24/09/19 06:00:48 INFO ExecutorEventListener: Got executor added event for 7 @ 1726725648610
+24/09/19 06:00:48 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.0.247:54638) with ID 7,  ResourceProfileId 0
+24/09/19 06:00:44 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/09/19 06:00:29 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/09/19 06:00:21 INFO MultipartUploadOutputStream: close closed:false s3://aws-glue-assets-590183902686-ap-south-1/sparkHistoryLogs/spark-application-1726725593632.inprogress
+24/09/19 06:00:21 INFO MultipartUploadOutputStream: close closed:false s3://aws-glue-assets-590183902686-ap-south-1/sparkHistoryLogs/jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065.inprogress
+24/09/19 06:00:21 INFO LogPusher: uploading /tmp/spark-event-logs/ to s3://aws-glue-assets-590183902686-ap-south-1/sparkHistoryLogs/
+24/09/19 06:00:14 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/09/19 05:59:59 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+24/09/19 05:59:59 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[5] at fromRDD at DynamicFrame.scala:305) (first 15 tasks are for partitions Vector(0))
+24/09/19 05:59:59 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1570
+24/09/19 05:59:59 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.31.5.180:42403 (size: 7.6 KiB, free: 5.8 GiB)
+24/09/19 05:59:59 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 7.6 KiB, free 5.8 GiB)
+24/09/19 05:59:59 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 16.2 KiB, free 5.8 GiB)
+24/09/19 05:59:59 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[5] at fromRDD at DynamicFrame.scala:305), which has no missing parents
+24/09/19 05:59:59 INFO DAGScheduler: Missing parents: List()
+24/09/19 05:59:59 INFO DAGScheduler: Parents of final stage: List()
+24/09/19 05:59:59 INFO DAGScheduler: Got job 0 (fromRDD at DynamicFrame.scala:305) with 1 output partitions
+24/09/19 05:59:59 INFO DAGScheduler: Final stage: ResultStage 0 (fromRDD at DynamicFrame.scala:305)
+24/09/19 05:59:59 INFO SparkContext: Starting job: fromRDD at DynamicFrame.scala:305
+24/09/19 05:59:58 INFO LakeformationRetryWrapper$: Lakeformation: API call succeeded
+24/09/19 05:59:58 INFO SparkContext: Created broadcast 2 from newAPIHadoopRDD at DataSource.scala:446
+24/09/19 05:59:58 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.31.5.180:42403 (size: 34.9 KiB, free: 5.8 GiB)
+24/09/19 05:59:58 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.9 KiB, free 5.8 GiB)
+24/09/19 05:59:58 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 369.9 KiB, free 5.8 GiB)
+24/09/19 05:59:58 INFO HadoopDataSource: nonSplittable: false, disableSplitting: false, catalogCompressionNotSplittable: false, groupFilesTapeOption: none, format: csv, isColumnar: false
+24/09/19 05:59:58 INFO PartitionFilesListerUsingBookmark: After initial job bookmarks filter, processing 100.00% of 1 files in partition DynamicFramePartition(com.amazonaws.services.glue.DynamicRecord@a0139eb8,s3://newbucket123567/,0).
+24/09/19 05:59:57 INFO PartitionFilesListerUsingBookmark: last job run range: low inconsistency range begin: 1970-01-01T00:00:00Z, 
+ job run range begin: 1970-01-01T00:00:00Z, 
+ high inconsistency range begin: 2024-09-19T05:44:57.461Z, 
+ job run range end: 2024-09-19T05:59:57.461Z
+24/09/19 05:59:57 INFO PartitionFilesListerUsingBookmark: UnprocessedPartitionFilter(partitionCreationEpoch=0, oldPartitions=Set())
+24/09/19 05:59:57 INFO PartitionFilesListerUsingBookmark: IncompletePartitionFilter(partitionCreationEpoch=0, incompletePartition=)
+24/09/19 05:59:57 INFO PartitionFilesListerUsingBookmark: newPartitionFilter(partitionCreationEpoch=0, oldPartitions=Set())
+24/09/19 05:59:57 INFO GlueContext: The DataSource in action : com.amazonaws.services.glue.HadoopDataSource
+24/09/19 05:59:56 INFO GlueContext: Glue secret manager integration: secretId is not provided.
+24/09/19 05:59:56 INFO GlueContext: location s3://newbucket123567/
+24/09/19 05:59:56 INFO GlueContext: No of partitions from catalog are 0.  consider catalogPartitionPredicate to reduce the number of partitions to scan through
+24/09/19 05:59:56 INFO GlueContext: classification csv
+24/09/19 05:59:56 INFO GlueContext: getCatalogSource: transactionId: <not-specified> asOfTime: <not-specified> catalogPartitionIndexPredicate: <not-specified> 
+24/09/19 05:59:56 INFO GlueContext: getCatalogSource: catalogId: null, nameSpace: dataprocess, tableName: newbucket123567, isRegisteredWithLF: false, isGoverned: false, isRowFilterEnabled: false, useAdvancedFiltering: false
+24/09/19 05:59:56 INFO LakeformationRetryWrapper$: Lakeformation: API call succeeded
+24/09/19 05:59:56 INFO AmazonHttpClient: Configuring Proxy. Proxy Host: 169.254.76.0 Proxy Port: 8888
+24/09/19 05:59:56 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 172.31.5.180:42403 in memory (size: 33.9 KiB, free: 5.8 GiB)
+24/09/19 05:59:56 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 172.31.5.180:42403 in memory (size: 33.9 KiB, free: 5.8 GiB)
+24/09/19 05:59:55 INFO AWSConnectionUtils$: AWSConnectionUtils: use proxy in glue client configuration. Host: 169.254.76.0, Port: 8888
+24/09/19 05:59:55 INFO JobBookmark$: jobbookmark is not enabled, do not init AWSGlueJobBookMarkService
+24/09/19 05:59:55 INFO SparkContext: Created broadcast 1 from broadcast at DynamoConnection.scala:52
+24/09/19 05:59:55 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 172.31.5.180:42403 (size: 33.9 KiB, free: 5.8 GiB)
+24/09/19 05:59:55 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 33.9 KiB, free 5.8 GiB)
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-2b993dc15e807c6812095dbb04f40f1cad5a72aa created for executor 9
+24/09/19 05:59:55 INFO TaskGroupInterface: createChildTask API response code 200
+24/09/19 05:59:55 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 362.4 KiB, free 5.8 GiB)
+24/09/19 05:59:55 INFO SparkContext: Created broadcast 0 from broadcast at DynamoConnection.scala:52
+24/09/19 05:59:55 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.31.5.180:42403 (size: 33.9 KiB, free: 5.8 GiB)
+24/09/19 05:59:55 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 33.9 KiB, free 5.8 GiB)
+24/09/19 05:59:55 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 362.4 KiB, free 5.8 GiB)
+24/09/19 05:59:55 INFO TaskGroupInterface: creating executor task for executor 9; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_9_a_spark-application-1726725593632
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-d7e6881905a7fd2566d8c1743cf26e3dfcd7b12a created for executor 8
+24/09/19 05:59:55 INFO TaskGroupInterface: creating executor task for executor 8; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_8_a_spark-application-1726725593632
+24/09/19 05:59:55 INFO AvroReaderUtil$: Creating default Avro field parser for version 1.7.
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-2c04d7a64500d1e8b85a3f67c1d5010174b5e5eb created for executor 7
+24/09/19 05:59:55 INFO FileListPersistence: create FileListPersistence with conf: fs.s3.serverSideEncryption.kms.keyId: None
+24/09/19 05:59:55 INFO Job$: Job run ID under runId method is jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065 
+24/09/19 05:59:55 INFO Job$: runId Method is Invoked 
+24/09/19 05:59:55 INFO LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 049362b7cf53ff5f739d6b1532457f2c6cd495e8]
+24/09/19 05:59:55 INFO GPLNativeCodeLoader: Loaded native gpl library
+24/09/19 05:59:55 INFO GlueContext: ObservabilityMetrics configured and enabled
+24/09/19 05:59:55 INFO ObservabilityTaskInfoRecorderListener: PerformanceMetricsSource is initiated
+24/09/19 05:59:55 INFO StageSkewness: [Observability] Skewness metric using Skewness Factor = 5
+24/09/19 05:59:55 INFO ObservabilityTaskInfoRecorderListener: ResourceUtilizationMetricsSource is initiated
+24/09/19 05:59:55 INFO ObservabilityTaskInfoRecorderListener: ThroughputMetricsSource is initiated
+24/09/19 05:59:55 INFO GlueContext: GlueMetrics configured and enabled
+24/09/19 05:59:55 INFO TaskGroupInterface: creating executor task for executor 7; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_7_a_spark-application-1726725593632
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-cbae9680602539e957eacc19453f42045704d672 created for executor 6
+24/09/19 05:59:55 INFO TaskGroupInterface: creating executor task for executor 6; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_6_a_spark-application-1726725593632
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-3a0e34ae00bdc5c43eac604db2d27c9485b2fc98 created for executor 5
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-fd2f55f02e25334740723b0c6dc37d675fb217fc created for executor 4
+24/09/19 05:59:55 INFO TaskGroupInterface: creating executor task for executor 5; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_5_a_spark-application-1726725593632
+24/09/19 05:59:55 INFO TaskGroupInterface: creating executor task for executor 4; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_4_a_spark-application-1726725593632
+24/09/19 05:59:55 INFO ExecutorTaskManagement: executor task g-ab3d6aa3afc60cd7149e0680c7ca96fc7bed4d93 created for executor 3
+24/09/19 05:59:55 INFO JESSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+24/09/19 05:59:54 INFO log: Logging initialized @8971ms to org.sparkproject.jetty.util.log.Slf4jLog
+24/09/19 05:59:54 INFO TaskGroupInterface: creating executor task for executor 3; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_3_a_spark-application-1726725593632
+24/09/19 05:59:54 INFO ExecutorTaskManagement: executor task g-aac9a580d25afc70831e8758f0f7c21893d2f173 created for executor 2
+24/09/19 05:59:54 INFO TaskGroupInterface: createChildTask API response code 200
+24/09/19 05:59:54 INFO TaskGroupInterface: creating executor task for executor 2; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_2_a_spark-application-1726725593632
+24/09/19 05:59:54 INFO ExecutorTaskManagement: executor task g-0fa910d0f872393c0af0176cb627bb7320374470 created for executor 1
+24/09/19 05:59:54 INFO SingleEventLogFileWriter: Logging events to file:/tmp/spark-event-logs/spark-application-1726725593632.inprogress
+24/09/19 05:59:54 INFO GlueCloudwatchSink: CloudwatchSink: jobName: newjob jobRunId: jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065
+24/09/19 05:59:54 INFO AmazonHttpClient: Configuring Proxy. Proxy Host: 169.254.76.0 Proxy Port: 8888
+24/09/19 05:59:54 INFO GlueCloudwatchSink: CloudwatchSink: Obtained credentials from the Instance Profile
+24/09/19 05:59:54 INFO GlueCloudwatchSink: GlueCloudwatchSink: get cloudwatch client using proxy: host 169.254.76.0, port 8888
+24/09/19 05:59:54 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.5.180, 42403, None)
+24/09/19 05:59:54 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.5.180, 42403, None)
+24/09/19 05:59:54 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.5.180:42403 with 5.8 GiB RAM, BlockManagerId(driver, 172.31.5.180, 42403, None)
+24/09/19 05:59:54 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.5.180, 42403, None)
+24/09/19 05:59:54 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/09/19 05:59:54 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42403.
+24/09/19 05:59:54 INFO NettyBlockTransferService: Server created on 172.31.5.180:42403
+24/09/19 05:59:54 INFO TaskGroupInterface: creating executor task for executor 1; clientToken gr_b8c1e8cb-b526-4d60-a84a-ad4149e5e231_e_1_a_spark-application-1726725593632
+24/09/19 05:59:54 INFO JESSchedulerBackend: JESClusterManager: Initializing JES client with proxy: host: 169.254.76.0, port: 8888
+24/09/19 05:59:54 INFO JESSchedulerBackend: JESSchedulerBackend
+24/09/19 05:59:53 INFO JESSchedulerBackend$JESAsSchedulerBackendEndpoint: JESAsSchedulerBackendEndpoint
+24/09/19 05:59:53 INFO SubResultCacheManager: Sub-result caches are disabled.
+24/09/19 05:59:53 INFO SparkEnv: Registering OutputCommitCoordinator
+24/09/19 05:59:53 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+24/09/19 05:59:53 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-dc412149-83fe-4db7-9c8e-65730da7a138
+24/09/19 05:59:53 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/09/19 05:59:53 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/09/19 05:59:53 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/09/19 05:59:53 INFO SparkEnv: Registering BlockManagerMaster
+24/09/19 05:59:53 INFO SparkEnv: Registering MapOutputTracker
+24/09/19 05:59:53 INFO Utils: Successfully started service 'sparkDriver' on port 34547.
+24/09/19 05:59:52 INFO SecurityManager: SecurityManager: authentication enabled; ui acls disabled; users  with view permissions: Set(spark); groups with view permissions: Set(); users  with modify permissions: Set(spark); groups with modify permissions: Set()
+24/09/19 05:59:52 INFO SecurityManager: Changing modify acls groups to: 
+24/09/19 05:59:52 INFO SecurityManager: Changing modify acls to: spark
+24/09/19 05:59:52 INFO SecurityManager: Changing view acls groups to: 
+24/09/19 05:59:52 INFO SecurityManager: Changing view acls to: spark
+24/09/19 05:59:52 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/09/19 05:59:52 INFO ResourceProfile: Limiting resource is cpus at 4 tasks per executor
+24/09/19 05:59:52 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 4, script: , vendor: , memory -> name: memory, amount: 10240, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/09/19 05:59:52 INFO ResourceUtils: ==============================================================
+24/09/19 05:59:52 INFO SparkContext: Submitted application: nativespark-newjob-jr_0b481866395f4ed53b3f7e322fa335fe2983e843333cb9db60ddc9694b4a7065
+24/09/19 05:59:52 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/09/19 05:59:52 INFO SparkContext: Running Spark version 3.3.0-amzn-1
+24/09/19 05:59:51 INFO SafeLogging: Initializing logging subsystem
+24/09/19 05:59:50 INFO PlatformInfo: Unable to read clusterId from /var/lib/info/job-flow.json, out of places to look
+24/09/19 05:59:50 INFO PlatformInfo: Unable to read clusterId from /var/lib/instance-controller/extraInstanceData.json, trying EMR job-flow data file: /var/lib/info/job-flow.json
+24/09/19 05:59:50 INFO PlatformInfo: Unable to read clusterId from http://localhost:8321/configuration, trying extra instance data file: /var/lib/instance-controller/extraInstanceData.json
+24/09/19 05:59:49 INFO LogPusher: standardLogging: true - logs will be written with job run ID or session ID
+24/09/19 05:59:49 INFO LogPusher: legacyLogging: true - logs will be written with spark application ID
+24/09/19 05:59:49 INFO SparkUICleaner: SparkUILogFileCleanerThread started
